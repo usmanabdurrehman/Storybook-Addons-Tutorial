@@ -27,7 +27,7 @@ import {
   ChevronRightIcon,
 } from "@chakra-ui/icons";
 
-export default function Home({ onLogout }: { onLogout: () => void }) {
+export const Home = ({ onLogout }: { onLogout: () => void }) => {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
@@ -130,7 +130,7 @@ export default function Home({ onLogout }: { onLogout: () => void }) {
       </Card>
     </>
   );
-}
+};
 
 const DesktopNav = () => {
   const linkColor = useColorModeValue("gray.600", "gray.200");

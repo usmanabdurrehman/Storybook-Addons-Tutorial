@@ -1,6 +1,5 @@
 import { linkTo, withLinks } from "@storybook/addon-links";
-import Home from "../Components/Home";
-import { SigninForm } from "../Components/SigninForm";
+import { Home } from "../../Components";
 
 export default {
   title: "Home",
