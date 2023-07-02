@@ -11,8 +11,8 @@ export const HighlightedSigninForm = () => {
   useEffect(() => {
     emit(HIGHLIGHT, {
       elements: [".email", ".password", ".signin"],
-      color: "blue",
-      style: "dotted",
+      color: "red",
+      style: "solid",
     });
   }, [emit]);
 
