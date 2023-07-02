@@ -5,7 +5,6 @@ import { within, userEvent } from "@storybook/testing-library";
 import type { Meta, StoryFn } from "@storybook/react";
 
 export default {
-  title: "SigninFormTest",
   component: SigninForm,
   argTypes: {
     onSubmit: { action: true },

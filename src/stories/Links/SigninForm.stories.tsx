@@ -2,7 +2,7 @@ import { linkTo, withLinks } from "@storybook/addon-links";
 import { SigninForm } from "../../Components";
 
 export default {
-  title: "SigninForm",
+  component: SigninForm,
   decorators: [withLinks],
 };
 

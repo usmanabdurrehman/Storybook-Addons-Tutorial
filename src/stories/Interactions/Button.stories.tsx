@@ -5,7 +5,6 @@ import { within, userEvent } from "@storybook/testing-library";
 import type { Meta, StoryFn } from "@storybook/react";
 
 export default {
-  title: "ButtonTest",
   component: Button,
   argTypes: {
     onClick: { action: true },

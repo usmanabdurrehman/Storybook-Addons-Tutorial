@@ -1,9 +1,9 @@
 import { Button, ButtonGroup } from "@chakra-ui/react";
 import { linkTo, withLinks } from "@storybook/addon-links";
-import Home from "../Components/Home";
+import { Home } from "../../Components/Home";
 
 export default {
-  title: "NormalButton",
+  component: Home,
   decorators: [withLinks],
 };
 

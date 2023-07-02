@@ -45,7 +45,7 @@ export const SigninForm = ({ onSubmit }: SigninFormProps) => (
                 {({ field, meta }: any) => (
                   <FormControl isInvalid={!!meta.error}>
                     <FormLabel>Email</FormLabel>
-                    <Input {...field} data-testid="email" />
+                    <Input {...field} data-testid="email" className="email" />
                     <FormErrorMessage>{meta.error}</FormErrorMessage>
                   </FormControl>
                 )}
@@ -54,7 +54,11 @@ export const SigninForm = ({ onSubmit }: SigninFormProps) => (
                 {({ field, meta }: any) => (
                   <FormControl isInvalid={!!meta.error}>
                     <FormLabel>Password</FormLabel>
-                    <Input {...field} data-testid="password" />
+                    <Input
+                      {...field}
+                      data-testid="password"
+                      className="password"
+                    />
                     <FormErrorMessage>{meta.error}</FormErrorMessage>
                   </FormControl>
                 )}
@@ -65,6 +69,7 @@ export const SigninForm = ({ onSubmit }: SigninFormProps) => (
                 onClick={() => {
                   onSubmit(values);
                 }}
+                className="signin"
               >
                 Sign in
               </Button>
