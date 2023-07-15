@@ -4,7 +4,7 @@ export default {
 };
 
 /*
-Figma: https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File
+Figma: https://www.figma.com/file/Klm6pxIZSaJFiOMX5FpTul9F
 Link: https://www.figma.com/file/Klm6pxIZSaJFiOMX5FpTul9F/storybook-addon-designs-sample
 Image: https://material.angular.io/assets/screenshots/button.scene.png
 IFrame: https://chakra-ui.com/docs/components/button/usage
@@ -19,7 +19,7 @@ export const ButtonBase = {
     design: [
       {
         type: "figma",
-        url: "https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File",
+        url: "https://www.figma.com/file/Klm6pxIZSaJFiOMX5FpTul9F",
       },
       {
         type: "link",
